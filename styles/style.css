@@ -72,6 +72,11 @@ main {
     height: 450px;
 }
 
+.absolute{
+    position: absolute;
+    bottom: 0px;
+}
+
 .btn-primary {
     background: #FF900E;
     border: none;
@@ -185,7 +190,9 @@ main {
     height: 140px;
 }
 
-.experience-image {}
+.experience-image {
+    position: relative;
+}
 
 .experience-image img {
     height: 100%;
